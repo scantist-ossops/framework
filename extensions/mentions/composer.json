@@ -74,6 +74,8 @@
     },
     "require-dev": {
         "flarum/core": "*@dev",
+        "flarum/approval": "*@dev",
+        "flarum/flags": "*@dev",
         "flarum/testing": "^1.0.0"
     },
     "repositories": [
