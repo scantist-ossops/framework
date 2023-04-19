@@ -33,6 +33,9 @@
         "flarum-extension": {
             "title": "Mentions",
             "category": "feature",
+            "optional-dependencies": [
+                "flarum/tags"
+            ],
             "icon": {
                 "name": "fas fa-at",
                 "backgroundColor": "#539EC1",
@@ -76,6 +79,7 @@
         "flarum/core": "*@dev",
         "flarum/approval": "*@dev",
         "flarum/flags": "*@dev",
+        "flarum/tags": "*@dev",
         "flarum/testing": "^1.0.0"
     },
     "repositories": [
